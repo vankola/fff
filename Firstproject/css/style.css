@@ -1,0 +1,360 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color: #333;
+
+    font-size: 1em;
+    font-family: "Segoe UI",sans-serif;
+
+}
+a{
+     color: brown;
+     text-decoration: none;
+     transition: all.6s ease;
+     -moz-transition: all.6s ease;
+     -webkit-transition: all.6s ease;
+     -ms-transition: all.6s ease;
+ }
+a:hover{
+    color: blue;
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+}
+a:active{color: aqua}
+img{
+    max-width:100%;
+    height:auto;
+    width: auto\9;
+    border-radius: 30px;
+}
+/* селешкен*/
+::selection{background: brown;color: #f7f7f7}
+::-moz-selection{background: brown;color: #f7f7f7}
+header,footer{
+    width: 98%;
+    background-color: #ffffff;
+    min-height: 50px;
+
+}
+header{
+    border-bottom: 2px solid #ffffff;
+    padding: 1%;
+    border-bottom: #333333;
+}
+header>div#lvl2>img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+#logo {
+    font-size: 2em;
+    font-family: Rubik, sans-serif;
+    
+}
+
+form.form1{
+
+    width: 300px;
+    margin: 0 auto;
+top: 1px;
+}
+form.form2 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    background: #F9F0DA;
+
+}
+
+input.field{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 320px;
+    border-bottom: 1px solid #000000;
+}
+
+input, button.field {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+input[type=submit].but2 {
+    width: 100%; /* Ширина кнопки */
+    height: 25px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+color: #ff0303;
+
+}
+
+
+
+footer{
+    padding: 1%;
+    border-top: 2px solid silver;
+    margin-top: 10px;
+}
+input[type="button"].but1{
+    right: 100px;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 7px;
+    transition: 0.2s;
+    background: rgba(255, 0, 0, 0.89)
+
+}
+input[type=button].but1:hover {background: rgba(64, 0, 0, 0.77)
+}
+input[type=button].but1:active {background: #ff0303
+}
+#layer1 {
+    position: relative; /* Относительное позиционирование */
+    background: #f0f0f0; /* Цвет фона */
+    height: 10px; /* Высота блока bottom:; */
+    /*  bottom:; */
+}
+#layer2 {
+    position: absolute; /* Абсолютное позиционирование */
+    top: 25px; /* Положение от нижнего края */
+    right: 10%; /* Положение от правого края */
+    line-height: 1px;
+}
+#lvl1{
+    position: absolute;
+    top: 25px;
+    right: 41% ;
+
+    display:  flex;
+}
+#lvl2{
+    position: absolute;
+    top: 25px;
+    left: 10% ;
+    width: 50px;
+    height:25px;
+    float: left;
+    display:  flex;
+}
+#lvl3 {
+    position: absolute;
+    top: 15px;
+    left: 60%;
+
+}
+/* ШАПКА КОНЕЦ*/
+.main{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+
+}
+aside{
+    float: left;
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+.heading{
+    font-weight: lighter;
+    font-size: 2em;
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 2px solid #db6e6e;
+    float: left;
+    color: #4f4f4f;
+    padding: 0px 5px;
+    position:relative !important;
+    left: 35% !important;
+}
+.headingg{
+    font-weight: lighter;
+    font-size: 2em;
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 2px solid #db6e6e;
+    float: left;
+    color: #4f4f4f;
+    padding: 0px 5px;
+    position:relative !important;
+    left: 37% !important;
+}
+.article1{
+    margin-right: 10%;
+    margin-bottom: 20px;
+
+    background-color: #fff;
+    box-sizing: border-box;
+    max-width: 100%;
+
+    width: 90%;
+    height: 50%;
+
+    display: flex;
+}
+.article1>amg {
+    flex-shrink: 0;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid;
+    width: 60%;
+    height: 60%;
+}
+
+.article>span{
+    font-family: serif
+}
+.article>h4{
+    font-weight: lighter;
+    font-size: 2em;
+    font-family: 'Roboto Slab', serif;
+}
+.news{
+    margin-left: 10%;
+    width: 90%;
+    float: left;
+
+}
+.section{
+    padding: 20px;
+   border: 1px solid;
+}
+#courses{
+
+}
+.novi {
+    font-weight: lighter;
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    width: 50px;
+    height:25px;
+    float: left;
+    display:  flex;
+}
+.div11{
+    padding: 0.4%;
+}
+.txx1 {
+    font-size: 1.2em;
+    font-family: Rubik, sans-serif;
+}
+.txx2 {
+    top: -20px;
+    font-size: 1.2em;
+    font-family: Rubik, sans-serif;
+}
+/*эфекты картинки00000000*/
+.al-c {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    padding-right:5px;
+    padding-left:5px;
+    margin-right:auto;
+    margin-left:auto;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.effects {
+    list-style:none;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.effects li {
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
+
+    background-color: #fff;
+    font: normal 14px sans-serif;
+    margin: 0;
+
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+
+    max-height: 50%;
+}
+
+@media (max-width:350px) {
+    .effects li {
+        font-size: 10px;
+    }
+}
+
+.effects li img {
+    display: block;
+    position: relative;
+    max-width:100%;
+    height:auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.effects li > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.effects li:hover > div {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.effects li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #fff;
+    background: #000;
+    font-size: 90%;
+    transition: all 0.4s ease-in-out;
+}
+
+.effects li a:hover {
+    background: #ff0000;
+    color: #fff;
+}
+
+.effects li > div {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.43);
+    transition: all 0.4s ease-in-out;
+    color: #fff;
+    transform: translate(0px, -35px) rotate(0deg);
+}
+
+.effects li:hover div {
+    opacity: 1;
+    transform: translate(0px, 0px) rotate(0deg);
+}
+.img2{
+    width: 100%;
+    max-height: 270px;
+}
+/*конец эфектов каринок*/
