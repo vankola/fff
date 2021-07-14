@@ -4,51 +4,90 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
     <meta charset="UTF-8">
     <meta name="description" content="сайт">
+    <link rel="stylesheet" href="css/windq.css">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="images/qq.png" rel="shortcut icon" type="image/x-icon"/>
+
     <title>Сайт тест</title>
+    <script src="script.js"></script>
 </head>
 <body>
-<header>
 
+<div id="mypopup" class="popup">
+    <div class="popup-content">
+        <div class="popup-header">
+            <h2>Вход</h2>
+            <span class="close">&times;</span>
+        </div>
+        <form role="form" onsubmit="signUp(event);">
+            <div class="popup-body">
+                <div class="search-modal">
+                    <div class="div-search-input-modal">
+                        <input type="text" name="login" id="login" class="search-input-login" placeholder="Логин"
+                               required>
+                        <input type="password" name="password" id="password" class="search-input-login"
+                               placeholder="Пароль" required>
+                    </div>
+                </div>  Запомнить
+                <input  type="checkbox" class="checkbox" name="remember">
+                <button type="submit" id="modal-login-button" class="modal-login-button">Войти</button>
+
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+
+
+<header>
+    <img id="logo111" src="images/pley.png"  alt="">
     <div id="lvl2">
-        <img src="images/pley.png"  alt="">
-    <a  href="1.html" title="на главную"id="logo"> Видеосервис</a>
+
+    <a  href="index.html" title="на главную" id="logo"> Видеосервис</a>
 
     </div>
          <form  class="form1">
-         <div id=lvl1">
-            <input type="text" class="field" placeholder="Поиск..."  />
-         </div>
-    </form>
+                 <div id=lvl1">
+                     <label for="elastic"></label><input type="text" class="field" id="elastic" placeholder="Поиск..."  />
+                 </div>
+         </form>
     <div id="lvl3">
-         <input class="but2" type="submit" value="Найти">
+        <button class="but2" type="submit" value="Найти">Найти</button>
+
     </div>
+
    <div id="layer2">
          <div id="layer1">
-             <input   type="button" class="but1" value="Войти"   />
+             <input id="myBtn"   type="button" class="but1" value="Войти"   />
          </div>
     </div>
+
+
 </header>
 
 
 <div class="main">
     <div class="news">
-        <h2  class="heading">Фильмы</h2>
-        <h2 class="headingg">Телеканалы</h2>
+        <a  class="heading">Фильмы</a>
+        <a href="list1.html" class="headingg">Телеканалы</a>
+<main id="swap" class="transition-fade">
+
         <div style="clear:both"><br></div>
 <div class="novi">
     <img src="images/plam.png"  alt="">
-    <h2>Новинки</h2></div>
+    <h2 class="headinggg">Новинки</h2></div>
         <div class="div11" style="clear:both" ><br></div>
 
-             <div class="article1">
+      <div class="article1">
+            <ul class="elastic">
                 <div style=" padding: 5px 20px; ">
                     <div class="al-c">
                         <div class="container">
                             <ul class="effects">
                                 <li>
-                                    <img  src="images/12.jpg"  title="Test" alt="">
+                                    <img  src="images/mul.png"  title="Test" alt="">
                                     <div>
                                         <div class="al-c">
                                             <div class="container">
@@ -63,14 +102,14 @@
                             </ul>
                         </div>
                     </div>
-                    <h4 class="txx1">Новый русский блокбастер</h4>
+                    <h4 class="txx11">Мульт в кино. Выпуск №103. Некогда грустить!</h4>
                 </div>
                  <div  style=" padding: 5px 20px; ">
                      <div class="al-c">
                          <div class="container">
                              <ul class="effects">
                                  <li>
-                                     <img  src="images/12.jpg"  title="Test" alt="">
+                                     <img  src="images/bat.png"  title="Test" alt="">
                                      <div>
                                          <div class="al-c">
                                              <div class="container">
@@ -85,14 +124,14 @@
                              </ul>
                          </div>
                      </div>
-                     <h4 class="txx1">Пирамида</h4>
+                     <h4 class="txx1">Новый Бэтмен</h4>
                  </div>
                  <div  style=" padding: 5px 20px; " >
                      <div class="al-c">
                          <div class="container">
                              <ul class="effects">
                                  <li>
-                                     <img  src="images/12.jpg"  title="Test" alt="">
+                                     <img  src="images/oda.png"  title="Test" alt="">
                                      <div>
                                          <div class="al-c">
                                              <div class="container">
@@ -107,14 +146,14 @@
                              </ul>
                          </div>
                      </div>
-                    <h4 class="txx1">Марсианин</h4>
+                    <h4 class="txx11">Однажды... в Голливуде</h4>
                  </div>
                  <div  style=" padding: 5px 20px; ">
                      <div class="al-c">
                          <div class="container">
                              <ul class="effects">
                                  <li>
-                                     <img  src="images/12.jpg"  title="Test" alt="">
+                                     <img  src="images/girl.png"  title="Test" alt="">
                                      <div>
                                          <div class="al-c">
                                              <div class="container">
@@ -129,11 +168,11 @@
                              </ul>
                          </div>
                      </div>
-                     <h4 class="txx1">Пикачу</h4>
+                     <h4 class="txx1">Стриптизёрши</h4>
                   </div>
-             </div>
-
-    </div>
+             </ul>
+        </div>
+      </div>
 </div>
 
 
@@ -143,7 +182,7 @@
         <div style="clear:both"><br></div>
         <div class="novi">
 
-            <h2>Жанры</h2></div>
+            <h2 class="headinggg">Жанры</h2></div>
         <div class="div11" style="clear:both" ><br></div>
 
         <div class="article1">
@@ -152,14 +191,16 @@
                     <div class="container">
                         <ul class="effects">
                             <li>
-                                <img class="img2" src="images/12.jpg"  title="Test" alt="">
+
+                                <img class="img2" src="images/orig.jpg"  title="Test" alt="">
+                                <p class="logo1" >😂</p>
+
                                 <div>
                                     <div class="al-c">
                                         <div class="container">
-                                            <h2>Викинги</h2>
-                                            <p>
-                                                Не беда, что российский блокбастер "Огонь" многое открыто заимствует из опыта фирменного голливудского жанра "фильмов катастроф" - режиссер Алексей Нужный, скажем так, учится у мастеров. Проблемы начинаются, если урок плохо усвоен, и копия оказывается значительно абсурдней, чем довольно крепкие оригиналы.</p>
-                                            <a href="">Подробнее</a>
+                                            <h2>Комедии</h2>
+                                            <p>Ищешь чем занятся вечером с друзьями? Конечно же посмотреть комедии!</p>
+                                                <a href="">Подробнее</a>
                                         </div>
                                     </div>
                                 </div>
@@ -167,6 +208,7 @@
                         </ul>
                     </div>
                 </div>
+
                 <h4 class="txx2">Комедии</h4>
             </div>
             <div  style=" padding: 5px 20px; ">
@@ -174,14 +216,15 @@
                     <div class="container">
                         <ul class="effects">
                             <li>
-                                <img class="img2" src="images/12.jpg"  title="Test" alt="">
+                                <img class="img2" src="images/grin.jpg"  title="Test" alt="">
+                                <p class="logo1" >😭</p>
+
                                 <div>
                                     <div class="al-c">
                                         <div class="container">
-                                            <h2>Викинги</h2>
-                                            <p>
-                                                Не беда, что российский блокбастер "Огонь" многое открыто заимствует из опыта фирменного голливудского жанра "фильмов катастроф" - режиссер Алексей Нужный, скажем так, учится у мастеров. Проблемы начинаются, если урок плохо усвоен, и копия оказывается значительно абсурдней, чем довольно крепкие оригиналы.</p>
-                                            <a href="">Подробнее</a>
+                                            <h2>Драммы</h2>
+                                            <p>Накопилось много слез? кликай сюда, мы поможем от них избавиться</p>
+                                                <a href="">Подробнее</a>
                                         </div>
                                     </div>
                                 </div>
@@ -196,14 +239,14 @@
                     <div class="container">
                         <ul class="effects">
                             <li>
-                                <img class="img2"  src="images/12.jpg"  title="Test" alt="">
+                                <img class="img2"  src="images/bly.jpg"  title="Test" alt="">
+                                <p class="logo1" >👽</p>
                                 <div>
                                     <div class="al-c">
                                         <div class="container">
-                                            <h2>Викинги</h2>
-                                            <p>
-                                                Не беда, что российский блокбастер "Огонь" многое открыто заимствует из опыта фирменного голливудского жанра "фильмов катастроф" - режиссер Алексей Нужный, скажем так, учится у мастеров. Проблемы начинаются, если урок плохо усвоен, и копия оказывается значительно абсурдней, чем довольно крепкие оригиналы.</p>
-                                            <a href="">Подробнее</a>
+                                            <h2>Фантастика</h2>
+                                            <p>Такого вы еще точно не видели! Кликай сюда и увидешь нечто</p>
+                                                 <a href="">Подробнее</a>
                                         </div>
                                     </div>
                                 </div>
@@ -218,13 +261,14 @@
                     <div class="container">
                         <ul class="effects">
                             <li>
-                                <img class="img2" src="images/12.jpg"  title="Test" alt="">
+                                <img class="img2" src="images/ser.jpg"  title="Test" alt="">
+                                <p class="logo1" >👻</p>
                                 <div>
                                     <div class="al-c">
                                         <div class="container">
-                                            <h2>Викинги</h2>
-                                            <p>
-                                                Не беда, что российский блокбастер "Огонь" многое открыто заимствует из опыта фирменного голливудского жанра "фильмов катастроф" - режиссер Алексей Нужный, скажем так, учится у мастеров. Проблемы начинаются, если урок плохо усвоен, и копия оказывается значительно абсурдней, чем довольно крепкие оригиналы.</p>
+                                            <h2>Ужасы</h2>
+                                            <p>Хотите ощутить острые эмоции страха? тогда кликай сюда и насладись этим прямо сейчас!
+                                               </p>
                                             <a href="">Подробнее</a>
                                         </div>
                                     </div>
@@ -240,16 +284,39 @@
     </div>
 </div>
 
-
+</main>
 <aside>
 
 </aside>
 
 
-<footer>
-
+<footer class="footer">
+    <div class="div__footer">
+        <div class="footer__item">
+            <div class="footer__logo">
+                <img src="images/htc-cs-logo.png" alt="htc-logo" class="footer__logo__pic">
+            </div>
+            <nav class="address">
+                <ul class="footer__address">
+                    <li class="footer__address__title">426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла
+                        Маркса, 246 (ДК «Металлург»)
+                    </li>
+                    <li class="footer__address__title">+7 (3412) 93-88-61, 43-29-29</li>
+                    <li class="footer__address__href"><a href="#">htc-cs.ru</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </footer>
 
+    <script src="tabs.js"></script>
+    <script src="windq.js"></script>
+    <script src="registration.js"></script>
+    <script src="swup.min.js"></script>
+    <script src="findFilms.js"></script>
+    <script>
+        const swup = new Swup();
+    </script>
 </body>
 </html>
 

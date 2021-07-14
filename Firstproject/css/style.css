@@ -34,7 +34,7 @@ img{
     max-width:100%;
     height:auto;
     width: auto\9;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 /* селешкен*/
 ::selection{background: brown;color: #f7f7f7}
@@ -56,11 +56,21 @@ header>div#lvl2>img{
     float: left;
 }
 #logo {
-    font-size: 2em;
-    font-family: Rubik, sans-serif;
-    
-}
+    font-size: 2.3em;
 
+    font-weight: lighter;
+
+    font-family: 'Roboto Slab', serif;
+}
+#logo111{
+    position: absolute;
+    top: 30px;
+    left: 6% ;
+    width: 60px;
+
+    float: left;
+    display:  flex;
+}
 form.form1{
 
     width: 300px;
@@ -88,20 +98,24 @@ input, button.field {
     outline: none;
     background: transparent;
     width: 100%;
+
+
 }
-input[type=submit].but2 {
+.but2 {
     width: 100%; /* Ширина кнопки */
     height: 25px; /* Высота кнопки */
     border: none; /* Убираем рамку */
-color: #ff0303;
 
+    background-color: white;
+    color: red;
+    font-size: medium;
 }
 
 
 
 footer{
     padding: 1%;
-    border-top: 2px solid silver;
+
     margin-top: 10px;
 }
 input[type="button"].but1{
@@ -150,6 +164,7 @@ input[type=button].but1:active {background: #ff0303
     height:25px;
     float: left;
     display:  flex;
+
 }
 #lvl3 {
     position: absolute;
@@ -159,6 +174,7 @@ input[type=button].but1:active {background: #ff0303
 }
 /* ШАПКА КОНЕЦ*/
 .main{
+
     width: 100%;
     float: left;
     margin-top: 20px;
@@ -189,6 +205,17 @@ aside{
     float: left;
     color: #4f4f4f;
     padding: 0px 5px;
+    position:relative !important;
+    left: 37% !important;
+}
+.headinggg{
+    font-weight: lighter;
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+
+    float: left;
+    color: #4f4f4f;
+
     position:relative !important;
     left: 37% !important;
 }
@@ -223,6 +250,7 @@ aside{
     font-family: 'Roboto Slab', serif;
 }
 .news{
+
     margin-left: 10%;
     width: 90%;
     float: left;
@@ -248,14 +276,38 @@ aside{
 .div11{
     padding: 0.4%;
 }
+.txx11{
+    font-weight: lighter;
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+    float: left;
+    color: #4f4f4f;
+
+    position:relative !important;
+
+    left: 7% !important;
+
+}
 .txx1 {
-    font-size: 1.2em;
-    font-family: Rubik, sans-serif;
+    font-weight: lighter;
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+    float: left;
+    color: #4f4f4f;
+    position:relative !important;
+    left: 22% !important;
+
 }
 .txx2 {
-    top: -20px;
-    font-size: 1.2em;
-    font-family: Rubik, sans-serif;
+    font-weight: lighter;
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+
+    float: left;
+    color: #4f4f4f;
+
+    position:relative !important;
+    left: 35% !important;
 }
 /*эфекты картинки00000000*/
 .al-c {
@@ -307,8 +359,8 @@ aside{
     display: block;
     position: relative;
     max-width:100%;
-    height:auto;
-
+    height:400px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -354,7 +406,205 @@ aside{
     transform: translate(0px, 0px) rotate(0deg);
 }
 .img2{
-    width: 100%;
-    max-height: 270px;
+    width: 200px;
+    max-height: 200px;
+
 }
+
 /*конец эфектов каринок*/
+.logo1{
+    position:absolute;
+    font-size: 120px;
+    vertical-align: middle;
+    line-height: 2;
+
+    width:98%;
+    top: -5%;
+    margin-top: 1px;
+    right:0;
+}
+.transition-fade{
+    transition: .4s;
+    opacity: 1;
+}
+html.is-animating .transition-fade{
+    opacity: 0;
+    transform: translateY(100px);
+}
+.main-section {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+
+}
+.section {
+    padding: 15px;
+
+    margin-bottom: 2%;
+    background-color: #F2F2F2;
+}
+.tekst_tel{
+    margin-left: 41%;
+    font-size: 1.4em;
+    font-weight: lighter;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1%;
+}
+.tekst_telz{
+    margin-left: 41%;
+    font-size: 1.8em;
+
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1%;
+}
+.chanal{
+    position: absolute;
+    margin-left: 5%;
+    width: 15%;
+
+    float: left;
+    display:  flex;
+}
+
+/*Footer starts*/
+
+.div__footer {
+    font-family: 'Rubik', sans-serif;
+    max-width: 1440px;
+    max-height: 120px;
+    background: #F2F2F2;
+    margin-top: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div__footer1 {
+    font-family: 'Rubik', sans-serif;
+    max-width: 1440px;
+    max-height: 120px;
+    background: #F2F2F2;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__logo__pic {
+    padding: 28px 40px 28px 130px;
+}
+
+.footer__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.address {
+    padding: 10px 298px 79px 0;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+
+}
+
+.footer__address__title {
+    list-style-type: none;
+    padding-bottom: 6px;
+}
+
+.footer__address__href {
+    list-style-type: none;
+    max-width: 940px;
+}
+
+.footer__address__href a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1F4766;
+}
+
+.channels {
+    width: 90%;
+    height: 70%;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    margin-top: 27px;
+}
+
+.channel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 192px;
+    border-radius: 8px;
+    background-color: #F2F2F2;
+}
+
+.channel:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.channel-logo {
+
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.channel-name {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0 0 0 0;
+}
+
+.channel-schedule {
+    padding-top: 0;
+}
+
+.channel-ul {
+    list-style: none;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.channel-li:first-child {
+    color: red;
+}
+
+.channel-li:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.channel-li {
+    display: flex;
+    max-height: 19px;
+}
+
+p:not(:last-child) {
+    margin-right: 16px;
+}
+
+ul.elastic > li {
+    /* Убираем маркеры списка */
+    padding-right: 16px;		/* Поля вокруг текста */
+
+}
+
+
+ul.elastic {
+    list-style: none;	/* Убираем маркеры списка */
+    display: flex;
+    padding-left: 0;
+
+}
+
+.elastic li.hide {
+    display: none;
+}
+
+.title .hide{
+    display: none;
+}
